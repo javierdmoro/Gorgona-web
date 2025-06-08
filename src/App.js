@@ -4,6 +4,12 @@ import GorgonaHeader from './components/GorgonaHeader';
 import CategorySidebar from './components/CategorySidebar';
 import ProductCard from './components/ProductCard';
 import CartModal from './components/CartModal';
+
+const CartButton = ({ onClick }) => (
+  <button onClick={onClick} className="fixed top-4 right-4 z-50 bg-black text-white p-2 rounded">
+    Ver carrito 🛒
+  </button>
+);
 import PromoCarousel from './components/PromoCarousel';
 import Testimonials from './components/Testimonials';
 import ContactSection from './components/ContactSection';
@@ -55,16 +61,21 @@ const App = () => {
     : availableProducts.filter(p => p.category === activeCategory);
 
   return (
+    <>
+      <CartButton onClick={() => setShowCart(true)} />
+      )}
     <div className="min-h-screen bg-white">
       {/* Header */}
       <GorgonaHeader 
         cartCount={cart.reduce((sum, item) => sum + item.quantity, 0)} 
         onCartClick={() => setShowCart(true)} 
       />
+      )}
       
       {/* Contenido principal */}
       <div className="max-w-6xl mx-auto">
         <PromoCarousel />
+      )}
         
         <div className="flex flex-col md:flex-row">
           <CategorySidebar
@@ -72,6 +83,7 @@ const App = () => {
             activeCategory={activeCategory}
             setActiveCategory={setActiveCategory}
           />
+      )}
           
           <main className="flex-1 p-4 md:p-6">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -81,13 +93,16 @@ const App = () => {
                   product={product}
                   onAddToCart={() => addToCart(product)}
                 />
+      )}
               ))}
             </div>
           </main>
         </div>
         
         <Testimonials />
+      )}
         <ContactSection />
+      )}
       </div>
 
       {/* Botón flotante del carrito */}
@@ -99,6 +114,7 @@ const App = () => {
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+      )}
             </svg>
             <span className="ml-2 w-6 h-6 bg-white text-[#007C74] rounded-full flex items-center justify-center text-sm font-bold">
               {cart.reduce((sum, item) => sum + item.quantity, 0)}
@@ -109,7 +125,8 @@ const App = () => {
 
       {/* Modal del carrito */}
       {showCart && (
-        <CartModal
+        {showCart && (
+        <CartModal show={showCart}
           cart={cart}
           onClose={() => setShowCart(false)}
           onSubmit={(formData) => {
@@ -127,6 +144,7 @@ const App = () => {
           updateQuantity={updateQuantity}
           clearCart={clearCart}
         />
+      )}
       )}
     </div>
   );
