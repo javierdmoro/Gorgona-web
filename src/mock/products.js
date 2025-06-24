@@ -65,7 +65,7 @@ export const products = [
     category: "Depilación",
     price: 200,
     description: "Luce un rostro impecable con nuestra Depilación de Barbilla. Elimina el vello de forma rápida, segura y con un acabado suave que realza tu perfil natural. Ideal para mantener una piel limpia y libre de imperfecciones día tras día.",
-    image: "/images/Depilacion-barbilla.jpg",
+    image: "/images/depilacion-barbilla.jpg",
     available: 1
   },
   {
