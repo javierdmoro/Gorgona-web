@@ -6,7 +6,7 @@ export const products = [
     category: "Pestañas",
     price: 800,
     description: "Ideales para realzar tu belleza sin excesos, con aplicación precisa, ligera y de acabado profesional.",
-    image: "/images/pestañas-1.jpg",
+    image: "/images/Pestañas-1.jpg",
     available: 1
   },
   {
@@ -15,7 +15,7 @@ export const products = [
     category: "Pestañas",
     price: 1000,
     description: "Crea un efecto impactante y sofisticado gracias a su acabado lleno, ligero y uniforme. Ideal para quienes buscan definición, profundidad y un toque glam sin perder naturalidad.",
-    image: "/images/pestañas-2.jpg",
+    image: "/images/Ppestañas-2.jpg",
     available: 1
   },
 
@@ -26,7 +26,7 @@ export const products = [
     category: "Cejas",
     price: 200,
     description: "Define tu estilo con nuestra Depilación de Cejas. Técnica precisa, resultados simétricos y acabado impecable que resalta tu mirada al instante",
-    image: "/images/cejas-1.jpg",
+    image: "/images/Cejas-1.jpg",
     available: 1
   },
   {
@@ -65,7 +65,7 @@ export const products = [
     category: "Depilación",
     price: 200,
     description: "Luce un rostro impecable con nuestra Depilación de Barbilla. Elimina el vello de forma rápida, segura y con un acabado suave que realza tu perfil natural. Ideal para mantener una piel limpia y libre de imperfecciones día tras día.",
-    image: "/images/depilacion-bigote.jpg",
+    image: "/images/Depilacion-barbilla.jpg",
     available: 1
   },
   {
