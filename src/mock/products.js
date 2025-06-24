@@ -15,7 +15,7 @@ export const products = [
     category: "Pestañas",
     price: 1000,
     description: "Crea un efecto impactante y sofisticado gracias a su acabado lleno, ligero y uniforme. Ideal para quienes buscan definición, profundidad y un toque glam sin perder naturalidad.",
-    image: "/images/Ppestañas-2.jpg",
+    image: "/images/Pestañas-2.jpg",
     available: 1
   },
 
