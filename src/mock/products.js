@@ -5,7 +5,7 @@ export const products = [
     name: "Pestañas por Puntos - Sencillas",
     category: "Pestañas",
     price: 800,
-    description: "Realza tu mirada con nuestro lifting profesional",
+    description: "Ideales para realzar tu belleza sin excesos, con aplicación precisa, ligera y de acabado profesional.",
     image: "/images/pestañas-1.jpg",
     available: 1
   },
@@ -14,7 +14,7 @@ export const products = [
     name: "Pestañas por Puntos - Volumen",
     category: "Pestañas",
     price: 1000,
-    description: "Resultados naturales que duran semanas",
+    description: "Crea un efecto impactante y sofisticado gracias a su acabado lleno, ligero y uniforme. Ideal para quienes buscan definición, profundidad y un toque glam sin perder naturalidad.",
     image: "/images/pestañas-2.jpg",
     available: 1
   },
@@ -25,7 +25,7 @@ export const products = [
     name: "Depilación",
     category: "Cejas",
     price: 200,
-    description: "Forma perfecta para tus cejas",
+    description: "Define tu estilo con nuestra Depilación de Cejas. Técnica precisa, resultados simétricos y acabado impecable que resalta tu mirada al instante",
     image: "/images/cejas-1.jpg",
     available: 1
   },
@@ -34,7 +34,7 @@ export const products = [
     name: "Henna",
     category: "Cejas",
     price: 150,
-    description: "Color intenso y definición perfecta",
+    description: "Color intenso, acabado duradero y definición perfecta sin necesidad de maquillaje diario",
     image: "/images/cejas-2.jpg",
     available: 1
   },
@@ -43,7 +43,7 @@ export const products = [
     name: "Combo Depilación + Henna",
     category: "Cejas",
     price: 300,
-    description: "Color intenso y definición perfecta",
+    description: "Define, da forma y aporta color en una sola sesión por un precio especial. ¡Más estilo, más ahorro y una mirada que lo dice todo!",
     image: "/images/cejas-3.jpg",
     available: 1
   },
@@ -55,7 +55,7 @@ export const products = [
     name: "Depilación de Bigote",
     category: "Depilación",
     price: 150,
-    description: "Piel suave sin vellos no deseados",
+    description: "Despídete del vello no deseado con nuestra Depilación de Bigotes. Rápida, precisa y con un acabado suave y duradero que realza tu belleza natural sin irritaciones. Ideal para una apariencia limpia y cuidada en minutos.",
     image: "/images/depilacion-bigote.jpg",
     available: 1
   },
@@ -64,7 +64,7 @@ export const products = [
     name: "Depilación de Barbilla",
     category: "Depilación",
     price: 200,
-    description: "Resultados duraderos y sin irritación",
+    description: "Luce un rostro impecable con nuestra Depilación de Barbilla. Elimina el vello de forma rápida, segura y con un acabado suave que realza tu perfil natural. Ideal para mantener una piel limpia y libre de imperfecciones día tras día.",
     image: "/images/depilacion-bigote.jpg",
     available: 1
   },
@@ -73,7 +73,7 @@ export const products = [
     name: "Depilación de Patilla",
     category: "Depilación",
     price: 300,
-    description: "Resultados duraderos y sin irritación",
+    description: "Refresca tu look con nuestra Depilación de Patilla. Técnica precisa, rápida y delicada que define el contorno de tu rostro y resalta tus facciones naturales. Perfecta para un acabado limpio, elegante y sin vellos indeseados.",
     image: "/images/depilacion-patilla.jpg",
     available: 1
   }
